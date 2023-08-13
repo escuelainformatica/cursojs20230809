@@ -2,6 +2,14 @@
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 import Tarjeta from '../componentes/Tarjeta.vue';
+import { useRouter, useRoute } from 'vue-router'
+
+const router = useRouter()
+const route = useRoute()
+//  this.$router.push('/dashboard')
+//console.log(router);
+console.log(route.params);
+
 // albumId,id,title,url,thumbnailUrl
 let photos = ref([]);
 axios.get("https://jsonplaceholder.typicode.com/photos")

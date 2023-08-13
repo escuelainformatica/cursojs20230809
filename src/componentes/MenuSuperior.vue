@@ -15,7 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
                     <RouterLink class="nav-link" to="/">Home <span class="sr-only">(current)</span></RouterLink>
                 </li>
                 <li class="nav-item">
-                    <RouterLink class="nav-link" to="/pagina2">Pagina2</RouterLink>
+                    <RouterLink class="nav-link" to="/pagina2/xxx">Pagina2</RouterLink>
                 </li>
                 <li class="nav-item">
                     <RouterLink class="nav-link" to="/pagina3">Pagina3</RouterLink>

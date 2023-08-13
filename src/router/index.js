@@ -10,7 +10,7 @@ const router = createRouter({
       component: Pagina1
     },
     {
-      path: '/pagina2',
+      path: '/pagina2/:arg?',
       name: 'pagina2',
       component: () => import('../views/Pagina2.vue') // porque se carga solo a requerimiento.
     },
